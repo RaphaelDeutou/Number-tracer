@@ -1,0 +1,4 @@
+.env
+*.exe
+.idea/
+__pycache__/

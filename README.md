@@ -10,9 +10,9 @@ Petit script Python qui géolocalise approximativement un numéro de téléphone
 
 ## Prérequis
 
-`pip install phonenumbers opencage folium`
+`pip install phonenumbers opencage folium python-dotenv`
 
-Une clé API OpenCage est nécessaire (gratuite sur opencagedata.com) — à fournir via une variable d'environnement plutôt qu'en dur dans le code.
+Une clé API OpenCage est nécessaire (gratuite sur opencagedata.com). Copier `.env.example` vers `.env` et y renseigner `NUMBER_TO_TRACE` et `OPENCAGE_API_KEY`.
 
 ## Statut
 
